@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { UsuarioLoginComponent } from './usuario-login/usuario-login.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,15 @@ import {MatCardModule} from '@angular/material/card';
     UsuarioCadastroComponent,
     LembreteComponent,
     CabecalhoComponent,
-    UsuarioLoginComponent
+    UsuarioLoginComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
