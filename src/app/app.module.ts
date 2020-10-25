@@ -8,19 +8,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { UsuarioLoginComponent } from './usuario-login/usuario-login.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsuarioCadastroComponent,
     LembreteComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    UsuarioLoginComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
