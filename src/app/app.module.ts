@@ -11,6 +11,8 @@ import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { UsuarioLoginComponent } from './usuario-login/usuario-login.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { HomeComponent } from './home/home.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     LembreteComponent,
     CabecalhoComponent,
     UsuarioLoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
